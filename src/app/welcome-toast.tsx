@@ -21,6 +21,9 @@ export function WelcomeToast() {
             <hr className="my-2" />
             This demo is to highlight the speed a full-stack Next.js site can
             achieve.{" "}
+            <b>{process.env.NEXT_PUBLIC_VERCEL_ENV}</b>
+            <br />
+            <b>{process.env.POSTGRES_URL}</b>
             <a
               href="https://github.com/ethanniser/NextFaster"
               className="font-semibold text-accent1 hover:underline"
