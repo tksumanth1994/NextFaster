@@ -27,12 +27,6 @@ export default async function RootLayout({
 }: Readonly<{
   children: React.ReactNode;
 }>) {
-  console.log("================================================");
-  console.log("================================================");
-  console.log("process.env.POSTGRES_URL:");
-  console.log(process.env.POSTGRES_URL);
-  console.log("================================================");
-  console.log("================================================");
   return (
     <html lang="en" className="h-full">
       <body
